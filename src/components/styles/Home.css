@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+background-image: radial-gradient(circle, white, #90b9df);
+
+
+}
+.empInfo{
+display: flex;
+    height: 25rem;
+    width: 20.73rem;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 9px 0px #6a758a;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+.pageTracker{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.pageTracker button{
+   height: 2rem;
+   width: 4rem;
+   background-color: transparent;
+}
+
+.filter{
+    background-color: black;
+        color: white;
+        font-size: 1.4rem;
+        outline: none;
+        border: none;
+}
+
+
+.imgUser{
+height: 10rem;
+border-radius: 10rem;
+background-color: black;
+}
+.imgUser img{
+    border-radius: 10rem;
+    height: inherit;
+}
+
+.userInfo{
+   
+    display: flex;
+    justify-content: center;
+    
+    width: inherit;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+}
+
+.ques{
+display: flex;
+    justify-content: center;
+    /* margin-left: 2rem; */
+    flex-direction: column;
+  
+
+    height: inherit;
+}
+.ans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-left: 2rem;
+
+height: inherit;
+}
+.add{
+    align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 7rem;
+        height: 3rem;
+        font-size: 2rem;
+        border-radius: 2rem;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        box-shadow: 0px 0px 9px 0px #6a758a;
+      
+}
+.add:hover{
+    cursor: pointer;
+    background-color: #37b24a;
+}
+
+.remove{
+        align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 8rem;
+            height: 3rem;
+            font-size: 2rem;
+            border-radius: 2rem;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            box-shadow: 0px 0px 9px 0px #6a758a;
+}
+.remove:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.selectedPage {
+    font-size: 1.5rem;
+    color: white;
+    
+}

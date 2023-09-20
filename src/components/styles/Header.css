@@ -1,0 +1,42 @@
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+  height: 4rem;
+  align-items: center;
+  color: white;
+}
+.headBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    font-size: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    
+}
+.item:hover{
+    text-decoration: underline;
+}
+.memberCnt{
+    background-image: url('../img//member.png');
+    
+    color: red;
+}
+.item img{
+    height: 3rem;
+   filter: invert(1);
+}
+
+.headBar button{
+    border: none;
+}
